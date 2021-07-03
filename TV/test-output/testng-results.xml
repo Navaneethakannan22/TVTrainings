@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="102" started-at="2021-07-03T21:54:40Z" finished-at="2021-07-03T21:54:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="102" started-at="2021-07-03T21:54:40Z" finished-at="2021-07-03T21:54:40Z">
+      <class name="com.tv.trainings.FruitsSegregation">
+        <test-method status="PASS" signature="addFruits()[pri:0, instance:com.tv.trainings.FruitsSegregation@67117f44]" name="addFruits" duration-ms="34" started-at="2021-07-03T21:54:40Z" finished-at="2021-07-03T21:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFruits -->
+        <test-method status="PASS" signature="getGreenApplePrice()[pri:0, instance:com.tv.trainings.FruitsSegregation@67117f44]" name="getGreenApplePrice" duration-ms="4" started-at="2021-07-03T21:54:40Z" finished-at="2021-07-03T21:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGreenApplePrice -->
+        <test-method status="PASS" signature="getOrangePrice()[pri:0, instance:com.tv.trainings.FruitsSegregation@67117f44]" name="getOrangePrice" duration-ms="1" started-at="2021-07-03T21:54:40Z" finished-at="2021-07-03T21:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrangePrice -->
+        <test-method status="PASS" signature="validateAppleCount()[pri:0, instance:com.tv.trainings.FruitsSegregation@67117f44]" name="validateAppleCount" duration-ms="2" started-at="2021-07-03T21:54:40Z" finished-at="2021-07-03T21:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppleCount -->
+        <test-method status="PASS" signature="validateBananaCount()[pri:0, instance:com.tv.trainings.FruitsSegregation@67117f44]" name="validateBananaCount" duration-ms="0" started-at="2021-07-03T21:54:40Z" finished-at="2021-07-03T21:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBananaCount -->
+      </class> <!-- com.tv.trainings.FruitsSegregation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
