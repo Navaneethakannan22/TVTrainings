@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
     <line>
-      <![CDATA[Fruites were added into the Bowl]]>
+      <![CDATA[6 Fruits were added into the Bowl]]>
+    </line>
+    <line>
+      <![CDATA[Fruits were segregated into their respective bowls]]>
     </line>
     <line>
       <![CDATA[Apple count is matched with Apple in fruits bowl]]>
@@ -11,40 +14,47 @@
       <![CDATA[Banana count is matched with Banana in fruits bowl]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="108" started-at="2021-07-06T18:59:41Z" finished-at="2021-07-06T18:59:41Z">
+  <suite name="Suite" duration-ms="124" started-at="2021-07-06T19:42:02Z" finished-at="2021-07-06T19:42:02Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="108" started-at="2021-07-06T18:59:41Z" finished-at="2021-07-06T18:59:41Z">
+    <test name="Test" duration-ms="124" started-at="2021-07-06T19:42:02Z" finished-at="2021-07-06T19:42:02Z">
       <class name="com.tv.trainings.FruitsSegregation">
-        <test-method status="PASS" signature="T01_addFruits()[pri:0, instance:com.tv.trainings.FruitsSegregation@50c87b21]" name="T01_addFruits" duration-ms="21" started-at="2021-07-06T18:59:41Z" finished-at="2021-07-06T18:59:41Z">
+        <test-method status="PASS" signature="T01_addFruits()[pri:0, instance:com.tv.trainings.FruitsSegregation@50c87b21]" name="T01_addFruits" duration-ms="14" started-at="2021-07-06T19:42:02Z" finished-at="2021-07-06T19:42:02Z">
           <reporter-output>
             <line>
-              <![CDATA[Fruites were added into the Bowl]]>
+              <![CDATA[6 Fruits were added into the Bowl]]>
             </line>
           </reporter-output>
         </test-method> <!-- T01_addFruits -->
-        <test-method status="PASS" signature="T02_getGreenApplePrice()[pri:0, instance:com.tv.trainings.FruitsSegregation@50c87b21]" name="T02_getGreenApplePrice" duration-ms="3" started-at="2021-07-06T18:59:41Z" finished-at="2021-07-06T18:59:41Z">
+        <test-method status="PASS" signature="T02_segregateFruits()[pri:0, instance:com.tv.trainings.FruitsSegregation@50c87b21]" name="T02_segregateFruits" duration-ms="4" started-at="2021-07-06T19:42:02Z" finished-at="2021-07-06T19:42:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Fruits were segregated into their respective bowls]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- T02_segregateFruits -->
+        <test-method status="PASS" signature="T03_getGreenApplePrice()[pri:0, instance:com.tv.trainings.FruitsSegregation@50c87b21]" name="T03_getGreenApplePrice" duration-ms="4" started-at="2021-07-06T19:42:02Z" finished-at="2021-07-06T19:42:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- T02_getGreenApplePrice -->
-        <test-method status="PASS" signature="T03_getOrangePrice()[pri:0, instance:com.tv.trainings.FruitsSegregation@50c87b21]" name="T03_getOrangePrice" duration-ms="3" started-at="2021-07-06T18:59:41Z" finished-at="2021-07-06T18:59:41Z">
+        </test-method> <!-- T03_getGreenApplePrice -->
+        <test-method status="PASS" signature="T04_getOrangePrice()[pri:0, instance:com.tv.trainings.FruitsSegregation@50c87b21]" name="T04_getOrangePrice" duration-ms="6" started-at="2021-07-06T19:42:02Z" finished-at="2021-07-06T19:42:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- T03_getOrangePrice -->
-        <test-method status="PASS" signature="T04_validateAppleCount()[pri:0, instance:com.tv.trainings.FruitsSegregation@50c87b21]" name="T04_validateAppleCount" duration-ms="3" started-at="2021-07-06T18:59:41Z" finished-at="2021-07-06T18:59:41Z">
+        </test-method> <!-- T04_getOrangePrice -->
+        <test-method status="PASS" signature="T05_validateAppleCount()[pri:0, instance:com.tv.trainings.FruitsSegregation@50c87b21]" name="T05_validateAppleCount" duration-ms="15" started-at="2021-07-06T19:42:02Z" finished-at="2021-07-06T19:42:02Z">
           <reporter-output>
             <line>
               <![CDATA[Apple count is matched with Apple in fruits bowl]]>
             </line>
           </reporter-output>
-        </test-method> <!-- T04_validateAppleCount -->
-        <test-method status="PASS" signature="T05_validateBananaCount()[pri:0, instance:com.tv.trainings.FruitsSegregation@50c87b21]" name="T05_validateBananaCount" duration-ms="9" started-at="2021-07-06T18:59:41Z" finished-at="2021-07-06T18:59:41Z">
+        </test-method> <!-- T05_validateAppleCount -->
+        <test-method status="PASS" signature="T06_validateBananaCount()[pri:0, instance:com.tv.trainings.FruitsSegregation@50c87b21]" name="T06_validateBananaCount" duration-ms="6" started-at="2021-07-06T19:42:02Z" finished-at="2021-07-06T19:42:02Z">
           <reporter-output>
             <line>
               <![CDATA[Banana count is matched with Banana in fruits bowl]]>
             </line>
           </reporter-output>
-        </test-method> <!-- T05_validateBananaCount -->
+        </test-method> <!-- T06_validateBananaCount -->
       </class> <!-- com.tv.trainings.FruitsSegregation -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
