@@ -4,12 +4,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class FruitsSegregation {
-	Apple a1, a2;
-	Banana b1, b2, b3;
-	Orange o1;
+	Fruit a1, a2,b1, b2, b3,o1;
+
 
 	@Test
-	public void addFruits() {
+	public void T01_addFruits() {
 		a1 = new Apple("Red", 150);
 		a2 = new Apple("Green", 250);
 
@@ -21,22 +20,22 @@ public class FruitsSegregation {
 	}
 
 	@Test
-	public void getGreenApplePrice() {
+	public void T02_getGreenApplePrice() {
 		System.out.println("Green apple is: " + a2.getPrice() + "/Kg");
 	}
 
 	@Test
-	public void getOrangePrice() {
+	public void T03_getOrangePrice() {
 		System.out.println("Orange is: " + o1.getPrice() + "/Kg");
 	}
 
 	@Test
-	public void validateAppleCount() {
+	public void T04_validateAppleCount() {
 		Assert.assertEquals(Apple.count, 2);
 	}
 
 	@Test
-	public void validateBananaCount() {
+	public void T05_validateBananaCount() {
 		Assert.assertEquals(Banana.count, 3);
 	}
 
