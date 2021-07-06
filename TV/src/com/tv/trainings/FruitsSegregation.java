@@ -1,6 +1,7 @@
 package com.tv.trainings;
 
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class FruitsSegregation {
@@ -17,6 +18,8 @@ public class FruitsSegregation {
 		b3 = new Banana("Red", 80);
 
 		o1 = new Orange("Orange", 200);
+		
+		Reporter.log("Fruits were added into the Bowl", true);
 	}
 
 	@Test
@@ -32,11 +35,13 @@ public class FruitsSegregation {
 	@Test
 	public void T04_validateAppleCount() {
 		Assert.assertEquals(Apple.count, 2);
+		Reporter.log("Apple count is matched with Apple in fruits bowl", true);
 	}
 
 	@Test
 	public void T05_validateBananaCount() {
 		Assert.assertEquals(Banana.count, 3);
+		Reporter.log("Banana count is matched with Banana in fruits bowl", true);
 	}
 
 }

@@ -328,3 +328,11 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 
 !ENTRY org.eclipse.recommenders.models.rcp 1 0 2021-07-07 00:03:24.812
 !MESSAGE org.eclipse.recommenders:index::zip:0.0.0 could not be resolved from the model repositories. Are you offline?
+
+!ENTRY org.testng.eclipse 1 0 2021-07-07 00:29:38.577
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Software\eclipse\eclipse\configuration\org.eclipse.osgi\1004\0\.cp\lib\testng-remote.jar C:\Software\eclipse\eclipse\plugins\org.testng_6.14.2.r201802161450.jar C:\Software\eclipse\eclipse\plugins\com.beust.jcommander_1.72.0.jar C:\Software\eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Software\eclipse\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Eclipse_Naveen\TV_Training\TV\bin
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54672 -protocol json -d C:\Eclipse_Naveen\TV_Training\TV\test-output C:\Eclipse_Naveen\TV_Training\TV\testng.xml
+java -ea -classpath C:\Software\eclipse\eclipse\configuration\org.eclipse.osgi\1004\0\.cp\lib\testng-remote.jar:C:\Software\eclipse\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:C:\Software\eclipse\eclipse\plugins\com.beust.jcommander_1.72.0.jar:C:\Software\eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Software\eclipse\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Eclipse_Naveen\TV_Training\TV\bin org.testng.remote.RemoteTestNG -serport 54672 -protocol json -d C:\Eclipse_Naveen\TV_Training\TV\test-output C:\Eclipse_Naveen\TV_Training\TV\testng.xml
