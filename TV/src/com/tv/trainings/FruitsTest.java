@@ -71,6 +71,7 @@ public class FruitsTest {
 	public void T08_validateBananaCount() {
 		Assert.assertEquals(bowl.getAllBananas().size(), 3);
 		Reporter.log("Banana count is matched with Banana in fruits bowl", true);
+		Reporter.log("=======================================================================",true);
 	}
 
 }

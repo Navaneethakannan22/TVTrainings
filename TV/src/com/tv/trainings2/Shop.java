@@ -1,6 +1,7 @@
 package com.tv.trainings2;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Shop {
@@ -8,36 +9,34 @@ public class Shop {
 	double shopRating = 3.5;
 	Address address;
 	List<Products> products;
-	// List<Products> nonGstProducts;
 
 	Shop() {
 		products = new ArrayList<>();
-		// nonGstProducts=new ArrayList<>();
 	}
 
 	public void procureProducts(Products... products) {
-		for (Products product : products) {
-			this.products.add(product);
-		}
-
+		this.products.addAll(Arrays.asList(products));
 	}
 
 	public List<Products> getAllGstProducts() {
-		Shop shop = new Shop();
+		ArrayList<Products> gstProducts = new ArrayList<>();
+
 		for (Products product : products) {
 			if (product.getProductGstStatus())
-				shop.procureProducts(product);
+				gstProducts.add(product);
 		}
-		return products;
+		// System.out.println(gstProducts);
+		return gstProducts;
 	}
 
 	public List<Products> getNonGstProducts() {
-		Shop shop = new Shop();
+		ArrayList<Products> nongGtProducts = new ArrayList<>();
+
 		for (Products product : products) {
 			if (!product.getProductGstStatus())
-				shop.procureProducts(product);
+				nongGtProducts.add(product);
 		}
-		return products;
+		return nongGtProducts;
 	}
 
 	public String getShopAddress() {
@@ -50,10 +49,12 @@ public class Shop {
 
 	public boolean isProductAvailable(String productName) {
 		boolean isProductAvail = false;
+
 		for (Products product : products) {
 			if (product.getName().equalsIgnoreCase(productName))
 				isProductAvail = true;
 		}
 		return isProductAvail;
 	}
+
 }

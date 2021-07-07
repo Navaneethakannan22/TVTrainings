@@ -4,14 +4,15 @@ public class Products {
 String name;
 String brand;
 String color;
-long price;
+long basePrice;
 boolean isGstApplicable;
 
-Products(String name,String brand,String color,int price,boolean isGstApplicable){
+Products(){}
+Products(String name,String brand,String color,int basePrice,boolean isGstApplicable){
 	this.name=name;
 	this.brand=brand;
 	this.color=color;
-	this.price=price;
+	this.basePrice=basePrice;
 	this.isGstApplicable=isGstApplicable;
 }
 
@@ -27,10 +28,19 @@ public String getspecifications() {
 	return color;
 }
 
-public long getPrice() {
-	return price;
+public long getBasePrice() {
+	return basePrice;
 }
 public boolean getProductGstStatus() {
 	return isGstApplicable;
+}
+public long getPriceWithGst(Products product) {
+	long gstPrice= (product.getBasePrice()*18)/100;
+	return product.getBasePrice()+gstPrice;
+}
+
+@Override
+public String toString() {
+	return getName();
 }
 }
