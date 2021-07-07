@@ -3,13 +3,14 @@ import java.util.List;
 
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class FruitsTest {
 	Fruits a1, a2, a3, b1, b2, b3, o1;
 	Bowl bowl = new Bowl();
 
-	@Test
+	@BeforeClass
 	public void T01_addFruits() {
 		a1 = new Apple("Red", "small", 150);
 		a2 = new Apple("Green", "medium", 250);
