@@ -39,6 +39,11 @@ public class Shop {
 		return nongGtProducts;
 	}
 
+	public long getPriceWithGst(Products product) {
+		long gstAmount= (product.getBasePrice()*18)/100;
+		return product.getBasePrice()+gstAmount;
+	}
+	
 	public String getShopAddress() {
 		return address.getDoorNo() + " " + address.getStreetName() + " " + address.getPlace();
 	}

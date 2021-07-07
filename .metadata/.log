@@ -1005,3 +1005,11 @@ java -ea -classpath C:\Software\eclipse\eclipse\configuration\org.eclipse.osgi\1
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 64713 -protocol json -d C:\Eclipse_Naveen\TV_Training\TV\test-output C:\Eclipse_Naveen\TV_Training\TV\testng.xml
 java -ea -classpath C:\Software\eclipse\eclipse\configuration\org.eclipse.osgi\1004\0\.cp\lib\testng-remote.jar:C:\Software\eclipse\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:C:\Software\eclipse\eclipse\plugins\com.beust.jcommander_1.72.0.jar:C:\Software\eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Software\eclipse\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Eclipse_Naveen\TV_Training\TV\bin org.testng.remote.RemoteTestNG -serport 64713 -protocol json -d C:\Eclipse_Naveen\TV_Training\TV\test-output C:\Eclipse_Naveen\TV_Training\TV\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2021-07-07 14:28:22.645
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Software\eclipse\eclipse\configuration\org.eclipse.osgi\1004\0\.cp\lib\testng-remote.jar C:\Software\eclipse\eclipse\plugins\org.testng_6.14.2.r201802161450.jar C:\Software\eclipse\eclipse\plugins\com.beust.jcommander_1.72.0.jar C:\Software\eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Software\eclipse\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar C:\Eclipse_Naveen\TV_Training\TV\bin
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51985 -protocol json -d C:\Eclipse_Naveen\TV_Training\TV\test-output C:\Users\5970\AppData\Local\Temp\testng-eclipse--926369765\testng-customsuite.xml
+java -ea -classpath C:\Software\eclipse\eclipse\configuration\org.eclipse.osgi\1004\0\.cp\lib\testng-remote.jar:C:\Software\eclipse\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:C:\Software\eclipse\eclipse\plugins\com.beust.jcommander_1.72.0.jar:C:\Software\eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Software\eclipse\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:C:\Eclipse_Naveen\TV_Training\TV\bin org.testng.remote.RemoteTestNG -serport 51985 -protocol json -d C:\Eclipse_Naveen\TV_Training\TV\test-output C:\Users\5970\AppData\Local\Temp\testng-eclipse--926369765\testng-customsuite.xml

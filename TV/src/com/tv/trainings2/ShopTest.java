@@ -33,7 +33,7 @@ public class ShopTest {
 
 		for (Products gstProduct : allGstProducts) {
 			// System.out.println(priceWithGst);
-			if (product.getPriceWithGst(gstProduct) > 2000)
+			if (shop.getPriceWithGst(gstProduct) > 2000)
 				gstProducts.add(gstProduct);
 		}
 		Reporter.log("All product whose price is more than Rs.2000(GST Included) is: " + gstProducts.toString(), true);
@@ -42,7 +42,7 @@ public class ShopTest {
 	@Test
 	public void validateGstProducts() {
 		Assert.assertTrue(
-				gstProducts.stream().parallel().allMatch(product -> (product.getPriceWithGst(product) > 2000)));
+				gstProducts.stream().parallel().allMatch(product -> (shop.getPriceWithGst(product) > 2000)));
 	}
 
 	@Test

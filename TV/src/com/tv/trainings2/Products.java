@@ -34,10 +34,6 @@ public long getBasePrice() {
 public boolean getProductGstStatus() {
 	return isGstApplicable;
 }
-public long getPriceWithGst(Products product) {
-	long gstPrice= (product.getBasePrice()*18)/100;
-	return product.getBasePrice()+gstPrice;
-}
 
 @Override
 public String toString() {
