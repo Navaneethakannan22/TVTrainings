@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.tv.trainings.FruitsSegregation">
+      <class name="com.tv.trainings.FruitsTest">
         <methods>
-          <include name="T06_validateBananaCount"/>
+          <include name="T04_validateOrangeBowl"/>
+          <include name="T08_validateBananaCount"/>
+          <include name="T03_validateBananaBowl"/>
         </methods>
-      </class> <!-- com.tv.trainings.FruitsSegregation -->
+      </class> <!-- com.tv.trainings.FruitsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
