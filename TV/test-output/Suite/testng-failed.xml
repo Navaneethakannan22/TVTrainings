@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Test(failed)" parallel="methods">
     <classes>
       <class name="com.tv.trainings.FruitsTest">
         <methods>
-          <include name="T04_validateOrangeBowl"/>
-          <include name="T08_validateBananaCount"/>
           <include name="T03_validateBananaBowl"/>
         </methods>
       </class> <!-- com.tv.trainings.FruitsTest -->

@@ -5,7 +5,9 @@
     <classes>
       <class name="com.tv.trainings2.ShopTest">
         <methods>
+          <include name="addProducts"/>
           <include name="validateGstProductsListCount"/>
+          <include name="validateGstProducts"/>
         </methods>
       </class> <!-- com.tv.trainings2.ShopTest -->
     </classes>

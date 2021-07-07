@@ -3,7 +3,7 @@ package com.tv.trainings2;
 public class Address {
 	String doorNo = "101/1";
 	String streetName = "Electronic Ocean";
-	String place = "Bangalore";
+	String Location = "Bangalore";
 
 	public String getDoorNo() {
 		return doorNo;
@@ -13,8 +13,8 @@ public class Address {
 		return streetName;
 	}
 
-	public String getPlace() {
-		return place;
+	public String getLocation() {
+		return Location;
 	}
 
 }

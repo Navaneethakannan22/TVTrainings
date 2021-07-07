@@ -23,6 +23,7 @@ public class FruitsTest {
 
 		bowl.addFruits(a1, a2,a3, b1, b2, b3, o1);
 		Reporter.log(bowl.getFruitsCountInBowl() + " Fruits were added into the Bowl", true);
+		Reporter.log("=================================EOT======================================", true);
 	}
 
 	@Test
@@ -31,6 +32,7 @@ public class FruitsTest {
 		Assert.assertTrue(apples.stream().parallel().allMatch(fruit -> fruit instanceof Apple));
 
 		Reporter.log("The Bowl contains only apples in it with the count of" + apples.size());
+		Reporter.log("=================================EOT======================================", true);
 	}
 
 	@Test
@@ -39,6 +41,7 @@ public class FruitsTest {
 		Assert.assertTrue(bananas.stream().parallel().allMatch(fruit -> fruit instanceof Banana));
 
 		Reporter.log("The Bowl contains only apples in it with the count of" + bananas.size());
+		Reporter.log("=================================EOT======================================", true);
 	}
 
 	@Test
@@ -47,6 +50,7 @@ public class FruitsTest {
 		Assert.assertTrue(oranges.stream().parallel().allMatch(fruit -> fruit instanceof Orange));
 
 		Reporter.log("The Bowl contains only apples in it with the count of" + oranges.size());
+		Reporter.log("=================================EOT======================================", true);
 	}
 
 	@Test
@@ -55,23 +59,26 @@ public class FruitsTest {
 		Assert.assertEquals(bowl.getAllApples().size(), 0);
 
 		Reporter.log("All apples were eaten");
+		Reporter.log("=================================EOT======================================", true);
 	}
 
 	@Test
 	public void T06_getGreenApplePrice() {
 		System.out.println("Green apple is: " + a2.getPrice() + "/Kg");
+		Reporter.log("=================================EOT======================================", true);
 	}
 
 	@Test
 	public void T07_getOrangePrice() {
 		System.out.println("Orange is: " + o1.getPrice() + "/Kg");
+		Reporter.log("=================================EOT======================================", true);
 	}
 
 	@Test
 	public void T08_validateBananaCount() {
 		Assert.assertEquals(bowl.getAllBananas().size(), 3);
 		Reporter.log("Banana count is matched with Banana in fruits bowl", true);
-		Reporter.log("=======================================================================",true);
+		Reporter.log("=================================EOT======================================", true);
 	}
 
 }
