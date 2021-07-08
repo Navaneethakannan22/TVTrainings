@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods,   13 passed</span>
+                    <span class="method-stats">16 methods,   16 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tv.trainings.FruitsTest" hash-for-method="T01_addFruits">T01_addFruits</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tv.trainings3.CMHospitalTest" hash-for-method="DisplayPatientListVisitedFromJuly1To5">DisplayPatientListVisitedFromJuly1To5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tv.trainings3.CMHospitalTest" hash-for-method="DisplayPatientListVisitedOnJuly5">DisplayPatientListVisitedOnJuly5</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -142,6 +147,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tv.trainings3.CMHospitalTest" hash-for-method="decisionBasedOnPatientsData">decisionBasedOnPatientsData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tv.trainings2.ShopTest" hash-for-method="getAllGstProducts">getAllGstProducts</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -158,6 +168,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tv.trainings2.ShopTest" hash-for-method="validateGstProductsListCount">validateGstProductsListCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tv.trainings3.CMHospitalTest" hash-for-method="validateLocalPatientsCount">validateLocalPatientsCount</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -183,13 +198,6 @@
               <span class="class-name">com.tv.trainings.FruitsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="T01_addFruits">
-                  </a> <!-- T01_addFruits -->
-                  <span class="method-name">T01_addFruits</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="T02_validateAppleBowl">
@@ -237,6 +245,42 @@
                   <a name="T08_validateBananaCount">
                   </a> <!-- T08_validateBananaCount -->
                   <span class="method-name">T08_validateBananaCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tv.trainings3.CMHospitalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DisplayPatientListVisitedFromJuly1To5">
+                  </a> <!-- DisplayPatientListVisitedFromJuly1To5 -->
+                  <span class="method-name">DisplayPatientListVisitedFromJuly1To5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DisplayPatientListVisitedOnJuly5">
+                  </a> <!-- DisplayPatientListVisitedOnJuly5 -->
+                  <span class="method-name">DisplayPatientListVisitedOnJuly5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="decisionBasedOnPatientsData">
+                  </a> <!-- decisionBasedOnPatientsData -->
+                  <span class="method-name">decisionBasedOnPatientsData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLocalPatientsCount">
+                  </a> <!-- validateLocalPatientsCount -->
+                  <span class="method-name">validateLocalPatientsCount</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -294,10 +338,11 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; parallel=&quot;classes&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Test&quot; parallel=&quot;classes&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.tv.trainings.FruitsTest&quot;/&gt;
       &lt;class name=&quot;com.tv.trainings2.ShopTest&quot;/&gt;
+      &lt;class name=&quot;com.tv.trainings3.CMHospitalTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -311,7 +356,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -337,64 +382,76 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(13);
+data.addRows(16);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'T02_validateAppleBowl')
-data.setCell(0, 2, 'com.tv.trainings.FruitsTest')
-data.setCell(0, 3, 95);
+data.setCell(0, 1, 'DisplayPatientListVisitedFromJuly1To5')
+data.setCell(0, 2, 'com.tv.trainings3.CMHospitalTest')
+data.setCell(0, 3, 129);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getAllGstProductsWithinSomePriceRange')
-data.setCell(1, 2, 'com.tv.trainings2.ShopTest')
-data.setCell(1, 3, 92);
+data.setCell(1, 1, 'T02_validateAppleBowl')
+data.setCell(1, 2, 'com.tv.trainings.FruitsTest')
+data.setCell(1, 3, 108);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'T01_addFruits')
-data.setCell(2, 2, 'com.tv.trainings.FruitsTest')
-data.setCell(2, 3, 13);
+data.setCell(2, 1, 'getAllGstProductsWithinSomePriceRange')
+data.setCell(2, 2, 'com.tv.trainings2.ShopTest')
+data.setCell(2, 3, 89);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateGstProductsListCount')
+data.setCell(3, 1, 'validateGstProducts')
 data.setCell(3, 2, 'com.tv.trainings2.ShopTest')
-data.setCell(3, 3, 8);
+data.setCell(3, 3, 61);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'T03_validateBananaBowl')
+data.setCell(4, 1, 'T04_validateOrangeBowl')
 data.setCell(4, 2, 'com.tv.trainings.FruitsTest')
-data.setCell(4, 3, 8);
+data.setCell(4, 3, 27);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'getAllGstProducts')
-data.setCell(5, 2, 'com.tv.trainings2.ShopTest')
-data.setCell(5, 3, 6);
+data.setCell(5, 1, 'validateLocalPatientsCount')
+data.setCell(5, 2, 'com.tv.trainings3.CMHospitalTest')
+data.setCell(5, 3, 15);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validateGstProducts')
+data.setCell(6, 1, 'getAllGstProducts')
 data.setCell(6, 2, 'com.tv.trainings2.ShopTest')
-data.setCell(6, 3, 5);
+data.setCell(6, 3, 10);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'T06_getGreenApplePrice')
+data.setCell(7, 1, 'T07_getOrangePrice')
 data.setCell(7, 2, 'com.tv.trainings.FruitsTest')
-data.setCell(7, 3, 4);
+data.setCell(7, 3, 6);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'validateProductAvailability')
-data.setCell(8, 2, 'com.tv.trainings2.ShopTest')
-data.setCell(8, 3, 3);
+data.setCell(8, 1, 'DisplayPatientListVisitedOnJuly5')
+data.setCell(8, 2, 'com.tv.trainings3.CMHospitalTest')
+data.setCell(8, 3, 5);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'T04_validateOrangeBowl')
+data.setCell(9, 1, 'T03_validateBananaBowl')
 data.setCell(9, 2, 'com.tv.trainings.FruitsTest')
 data.setCell(9, 3, 3);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'T05_removeAllApples')
 data.setCell(10, 2, 'com.tv.trainings.FruitsTest')
-data.setCell(10, 3, 2);
+data.setCell(10, 3, 3);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'T07_getOrangePrice')
-data.setCell(11, 2, 'com.tv.trainings.FruitsTest')
-data.setCell(11, 3, 2);
+data.setCell(11, 1, 'decisionBasedOnPatientsData')
+data.setCell(11, 2, 'com.tv.trainings3.CMHospitalTest')
+data.setCell(11, 3, 3);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'T08_validateBananaCount')
+data.setCell(12, 1, 'T06_getGreenApplePrice')
 data.setCell(12, 2, 'com.tv.trainings.FruitsTest')
-data.setCell(12, 3, 2);
+data.setCell(12, 3, 3);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'T08_validateBananaCount')
+data.setCell(13, 2, 'com.tv.trainings.FruitsTest')
+data.setCell(13, 3, 2);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateGstProductsListCount')
+data.setCell(14, 2, 'com.tv.trainings2.ShopTest')
+data.setCell(14, 3, 2);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateProductAvailability')
+data.setCell(15, 2, 'com.tv.trainings2.ShopTest')
+data.setCell(15, 3, 2);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 243 ms</span>
+              <span class="suite-total-time">Total running time: 468 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -406,16 +463,70 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">validateProductAvailability</span>
+              <span class="reporter-method-name">T02_validateAppleBowl</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">The ProductBikeis not available in shop</span>
+                <span class="reporter-method-output">The Bowl contains only apples in it with the count of3</span>
                 <span class="reporter-method-output">=================================EOT======================================</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">T02_validateAppleBowl</span>
+              <span class="reporter-method-name">validateLocalPatientsCount</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Patients from Bangalore are: 2</span>
+                <span class="reporter-method-output">=================================EOT======================================</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">T03_validateBananaBowl</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">The Bowl contains only apples in it with the count of3</span>
+                <span class="reporter-method-output">=================================EOT======================================</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">T08_validateBananaCount</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Banana count is matched with Banana in fruits bowl</span>
+                <span class="reporter-method-output">=================================EOT======================================</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DisplayPatientListVisitedFromJuly1To5</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Patients who visited From July1 to July5th is: </span>
+                <span class="reporter-method-output">=================================EOT======================================</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">T05_removeAllApples</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">All apples were eaten</span>
+                <span class="reporter-method-output">=================================EOT======================================</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getAllGstProductsWithinSomePriceRange</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">All product available withing price Range of '2000' is displayed</span>
+                <span class="reporter-method-output">=================================EOT======================================</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">decisionBasedOnPatientsData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">=================================EOT======================================</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DisplayPatientListVisitedOnJuly5</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Patients who visited on July 5th is: </span>
+                <span class="reporter-method-output">=================================EOT======================================</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateGstProductsListCount</span>
+              <div class="reporter-method-output-div">
                 <span class="reporter-method-output">=================================EOT======================================</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -426,7 +537,7 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">validateGstProductsListCount</span>
+              <span class="reporter-method-name">validateGstProducts</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">=================================EOT======================================</span>
               </div> <!-- reporter-method-output-div -->
@@ -446,48 +557,14 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">T01_addFruits</span>
+              <span class="reporter-method-name">validateProductAvailability</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">7 Fruits were added into the Bowl</span>
-                <span class="reporter-method-output">=================================EOT======================================</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">T05_removeAllApples</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">All apples were eaten</span>
+                <span class="reporter-method-output">The ProductBikeis not available in shop</span>
                 <span class="reporter-method-output">=================================EOT======================================</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">T07_getOrangePrice</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">=================================EOT======================================</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">getAllGstProductsWithinSomePriceRange</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">All product available withing price Range of '2000' is displayed</span>
-                <span class="reporter-method-output">=================================EOT======================================</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">T03_validateBananaBowl</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">The Bowl contains only apples in it with the count of3</span>
-                <span class="reporter-method-output">=================================EOT======================================</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">T08_validateBananaCount</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Banana count is matched with Banana in fruits bowl</span>
-                <span class="reporter-method-output">=================================EOT======================================</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">validateGstProducts</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">=================================EOT======================================</span>
               </div> <!-- reporter-method-output-div -->
@@ -507,6 +584,13 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">com.tv.trainings.FruitsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">T01_addFruits</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">com.tv.trainings2.ShopTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">addProducts</span>
@@ -514,82 +598,104 @@ return data;
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.tv.trainings.FruitsTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">T01_addFruits</span>
-                <span class="method-start">14 ms</span>
-              </div> <!-- test-method -->
+              <div class="chronological-class-name">com.tv.trainings3.CMHospitalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">addPatientsData</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.tv.trainings2.ShopTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getAllGstProducts</span>
-                <span class="method-start">15 ms</span>
+                <span class="method-start">22 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tv.trainings3.CMHospitalTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getAllGstProductsWithinSomePriceRange</span>
-                <span class="method-start">30 ms</span>
+                <span class="method-name">DisplayPatientListVisitedFromJuly1To5</span>
+                <span class="method-start">22 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.tv.trainings.FruitsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">T02_validateAppleBowl</span>
-                <span class="method-start">32 ms</span>
+                <span class="method-start">22 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.tv.trainings2.ShopTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <span class="method-name">getAllGstProductsWithinSomePriceRange</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">validateGstProducts</span>
-                <span class="method-start">126 ms</span>
+                <span class="method-start">129 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.tv.trainings.FruitsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">T03_validateBananaBowl</span>
-                <span class="method-start">132 ms</span>
+                <span class="method-start">138 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.tv.trainings2.ShopTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">validateGstProductsListCount</span>
-                <span class="method-start">135 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.tv.trainings.FruitsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">T04_validateOrangeBowl</span>
-                <span class="method-start">145 ms</span>
+                <span class="method-start">144 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.tv.trainings2.ShopTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.tv.trainings3.CMHospitalTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">validateProductAvailability</span>
-                <span class="method-start">146 ms</span>
+                <span class="method-name">DisplayPatientListVisitedOnJuly5</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">decisionBasedOnPatientsData</span>
+                <span class="method-start">160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLocalPatientsCount</span>
+                <span class="method-start">167 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.tv.trainings.FruitsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">T05_removeAllApples</span>
-                <span class="method-start">151 ms</span>
+                <span class="method-start">179 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">T06_getGreenApplePrice</span>
-                <span class="method-start">155 ms</span>
+                <span class="method-start">186 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">T07_getOrangePrice</span>
-                <span class="method-start">165 ms</span>
+                <span class="method-start">191 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tv.trainings2.ShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateGstProductsListCount</span>
+                <span class="method-start">193 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tv.trainings.FruitsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">T08_validateBananaCount</span>
-                <span class="method-start">169 ms</span>
+                <span class="method-start">204 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tv.trainings2.ShopTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateProductAvailability</span>
+                <span class="method-start">204 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
   <reporter-output>
     <line>
       <![CDATA[All products were procured for shop]]>
     </line>
     <line>
+      <![CDATA[7 Fruits were added into the Bowl]]>
+    </line>
+    <line>
       <![CDATA[=================================EOT======================================]]>
+    </line>
+    <line>
+      <![CDATA[=================================EOT======================================]]>
+    </line>
+    <line>
+      <![CDATA[Patients data were added]]>
+    </line>
+    <line>
+      <![CDATA[=================================EOT======================================]]>
+    </line>
+    <line>
+      <![CDATA[Patients who visited From July1 to July5th is: ]]>
     </line>
     <line>
       <![CDATA[All product available only with GST is displayed]]>
-    </line>
-    <line>
-      <![CDATA[=================================EOT======================================]]>
-    </line>
-    <line>
-      <![CDATA[7 Fruits were added into the Bowl]]>
     </line>
     <line>
       <![CDATA[=================================EOT======================================]]>
@@ -32,10 +41,16 @@
       <![CDATA[=================================EOT======================================]]>
     </line>
     <line>
+      <![CDATA[The Bowl contains only apples in it with the count of3]]>
+    </line>
+    <line>
       <![CDATA[=================================EOT======================================]]>
     </line>
     <line>
-      <![CDATA[The Bowl contains only apples in it with the count of3]]>
+      <![CDATA[=================================EOT======================================]]>
+    </line>
+    <line>
+      <![CDATA[Patients who visited on July 5th is: ]]>
     </line>
     <line>
       <![CDATA[=================================EOT======================================]]>
@@ -50,7 +65,7 @@
       <![CDATA[=================================EOT======================================]]>
     </line>
     <line>
-      <![CDATA[The ProductBikeis not available in shop]]>
+      <![CDATA[Patients from Bangalore are: 2]]>
     </line>
     <line>
       <![CDATA[=================================EOT======================================]]>
@@ -68,18 +83,79 @@
       <![CDATA[=================================EOT======================================]]>
     </line>
     <line>
+      <![CDATA[=================================EOT======================================]]>
+    </line>
+    <line>
+      <![CDATA[=================================EOT======================================]]>
+    </line>
+    <line>
       <![CDATA[Banana count is matched with Banana in fruits bowl]]>
     </line>
     <line>
       <![CDATA[=================================EOT======================================]]>
     </line>
+    <line>
+      <![CDATA[The ProductBikeis not available in shop]]>
+    </line>
+    <line>
+      <![CDATA[=================================EOT======================================]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="193" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+  <suite name="Suite" duration-ms="227" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="193" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+    <test name="Test" duration-ms="227" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
+      <class name="com.tv.trainings3.CMHospitalTest">
+        <test-method status="PASS" signature="addPatientsData()[pri:0, instance:com.tv.trainings3.CMHospitalTest@5034c75a]" name="addPatientsData" is-config="true" duration-ms="18" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Patients data were added]]>
+            </line>
+            <line>
+              <![CDATA[=================================EOT======================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addPatientsData -->
+        <test-method status="PASS" signature="DisplayPatientListVisitedFromJuly1To5()[pri:0, instance:com.tv.trainings3.CMHospitalTest@5034c75a]" name="DisplayPatientListVisitedFromJuly1To5" duration-ms="129" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Patients who visited From July1 to July5th is: ]]>
+            </line>
+            <line>
+              <![CDATA[=================================EOT======================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DisplayPatientListVisitedFromJuly1To5 -->
+        <test-method status="PASS" signature="DisplayPatientListVisitedOnJuly5()[pri:0, instance:com.tv.trainings3.CMHospitalTest@5034c75a]" name="DisplayPatientListVisitedOnJuly5" duration-ms="5" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Patients who visited on July 5th is: ]]>
+            </line>
+            <line>
+              <![CDATA[=================================EOT======================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DisplayPatientListVisitedOnJuly5 -->
+        <test-method status="PASS" signature="decisionBasedOnPatientsData()[pri:0, instance:com.tv.trainings3.CMHospitalTest@5034c75a]" name="decisionBasedOnPatientsData" duration-ms="3" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=================================EOT======================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- decisionBasedOnPatientsData -->
+        <test-method status="PASS" signature="validateLocalPatientsCount()[pri:0, instance:com.tv.trainings3.CMHospitalTest@5034c75a]" name="validateLocalPatientsCount" duration-ms="15" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Patients from Bangalore are: 2]]>
+            </line>
+            <line>
+              <![CDATA[=================================EOT======================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLocalPatientsCount -->
+      </class> <!-- com.tv.trainings3.CMHospitalTest -->
       <class name="com.tv.trainings2.ShopTest">
-        <test-method status="PASS" signature="addProducts()[pri:0, instance:com.tv.trainings2.ShopTest@6d00a15d]" name="addProducts" is-config="true" duration-ms="15" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+        <test-method status="PASS" signature="addProducts()[pri:0, instance:com.tv.trainings2.ShopTest@51efea79]" name="addProducts" is-config="true" duration-ms="13" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
           <reporter-output>
             <line>
               <![CDATA[All products were procured for shop]]>
@@ -89,7 +165,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- addProducts -->
-        <test-method status="PASS" signature="getAllGstProducts()[pri:0, instance:com.tv.trainings2.ShopTest@6d00a15d]" name="getAllGstProducts" duration-ms="6" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+        <test-method status="PASS" signature="getAllGstProducts()[pri:0, instance:com.tv.trainings2.ShopTest@51efea79]" name="getAllGstProducts" duration-ms="10" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
           <reporter-output>
             <line>
               <![CDATA[All product available only with GST is displayed]]>
@@ -99,7 +175,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- getAllGstProducts -->
-        <test-method status="PASS" signature="getAllGstProductsWithinSomePriceRange()[pri:0, instance:com.tv.trainings2.ShopTest@6d00a15d]" name="getAllGstProductsWithinSomePriceRange" duration-ms="92" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+        <test-method status="PASS" signature="getAllGstProductsWithinSomePriceRange()[pri:0, instance:com.tv.trainings2.ShopTest@51efea79]" name="getAllGstProductsWithinSomePriceRange" duration-ms="89" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
           <reporter-output>
             <line>
               <![CDATA[All product available withing price Range of '2000' is displayed]]>
@@ -109,21 +185,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- getAllGstProductsWithinSomePriceRange -->
-        <test-method status="PASS" signature="validateGstProducts()[pri:0, instance:com.tv.trainings2.ShopTest@6d00a15d]" name="validateGstProducts" duration-ms="5" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+        <test-method status="PASS" signature="validateGstProducts()[pri:0, instance:com.tv.trainings2.ShopTest@51efea79]" name="validateGstProducts" duration-ms="61" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
           <reporter-output>
             <line>
               <![CDATA[=================================EOT======================================]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateGstProducts -->
-        <test-method status="PASS" signature="validateGstProductsListCount()[pri:0, instance:com.tv.trainings2.ShopTest@6d00a15d]" name="validateGstProductsListCount" duration-ms="8" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+        <test-method status="PASS" signature="validateGstProductsListCount()[pri:0, instance:com.tv.trainings2.ShopTest@51efea79]" name="validateGstProductsListCount" duration-ms="2" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
           <reporter-output>
             <line>
               <![CDATA[=================================EOT======================================]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateGstProductsListCount -->
-        <test-method status="PASS" signature="validateProductAvailability()[pri:0, instance:com.tv.trainings2.ShopTest@6d00a15d]" name="validateProductAvailability" duration-ms="3" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+        <test-method status="PASS" signature="validateProductAvailability()[pri:0, instance:com.tv.trainings2.ShopTest@51efea79]" name="validateProductAvailability" duration-ms="2" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
           <reporter-output>
             <line>
               <![CDATA[The ProductBikeis not available in shop]]>
@@ -135,7 +211,7 @@
         </test-method> <!-- validateProductAvailability -->
       </class> <!-- com.tv.trainings2.ShopTest -->
       <class name="com.tv.trainings.FruitsTest">
-        <test-method status="PASS" signature="T01_addFruits()[pri:0, instance:com.tv.trainings.FruitsTest@36d4b5c]" name="T01_addFruits" duration-ms="13" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+        <test-method status="PASS" signature="T01_addFruits()[pri:0, instance:com.tv.trainings.FruitsTest@6d00a15d]" name="T01_addFruits" is-config="true" duration-ms="14" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
           <reporter-output>
             <line>
               <![CDATA[7 Fruits were added into the Bowl]]>
@@ -145,7 +221,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- T01_addFruits -->
-        <test-method status="PASS" signature="T02_validateAppleBowl()[pri:0, instance:com.tv.trainings.FruitsTest@36d4b5c]" name="T02_validateAppleBowl" duration-ms="95" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+        <test-method status="PASS" signature="T02_validateAppleBowl()[pri:0, instance:com.tv.trainings.FruitsTest@6d00a15d]" name="T02_validateAppleBowl" duration-ms="108" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
           <reporter-output>
             <line>
               <![CDATA[The Bowl contains only apples in it with the count of3]]>
@@ -155,7 +231,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- T02_validateAppleBowl -->
-        <test-method status="PASS" signature="T03_validateBananaBowl()[pri:0, instance:com.tv.trainings.FruitsTest@36d4b5c]" name="T03_validateBananaBowl" duration-ms="8" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+        <test-method status="PASS" signature="T03_validateBananaBowl()[pri:0, instance:com.tv.trainings.FruitsTest@6d00a15d]" name="T03_validateBananaBowl" duration-ms="3" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
           <reporter-output>
             <line>
               <![CDATA[The Bowl contains only apples in it with the count of3]]>
@@ -165,7 +241,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- T03_validateBananaBowl -->
-        <test-method status="PASS" signature="T04_validateOrangeBowl()[pri:0, instance:com.tv.trainings.FruitsTest@36d4b5c]" name="T04_validateOrangeBowl" duration-ms="3" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+        <test-method status="PASS" signature="T04_validateOrangeBowl()[pri:0, instance:com.tv.trainings.FruitsTest@6d00a15d]" name="T04_validateOrangeBowl" duration-ms="27" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
           <reporter-output>
             <line>
               <![CDATA[The Bowl contains only apples in it with the count of1]]>
@@ -175,7 +251,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- T04_validateOrangeBowl -->
-        <test-method status="PASS" signature="T05_removeAllApples()[pri:0, instance:com.tv.trainings.FruitsTest@36d4b5c]" name="T05_removeAllApples" duration-ms="2" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+        <test-method status="PASS" signature="T05_removeAllApples()[pri:0, instance:com.tv.trainings.FruitsTest@6d00a15d]" name="T05_removeAllApples" duration-ms="3" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
           <reporter-output>
             <line>
               <![CDATA[All apples were eaten]]>
@@ -185,21 +261,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- T05_removeAllApples -->
-        <test-method status="PASS" signature="T06_getGreenApplePrice()[pri:0, instance:com.tv.trainings.FruitsTest@36d4b5c]" name="T06_getGreenApplePrice" duration-ms="4" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+        <test-method status="PASS" signature="T06_getGreenApplePrice()[pri:0, instance:com.tv.trainings.FruitsTest@6d00a15d]" name="T06_getGreenApplePrice" duration-ms="3" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
           <reporter-output>
             <line>
               <![CDATA[=================================EOT======================================]]>
             </line>
           </reporter-output>
         </test-method> <!-- T06_getGreenApplePrice -->
-        <test-method status="PASS" signature="T07_getOrangePrice()[pri:0, instance:com.tv.trainings.FruitsTest@36d4b5c]" name="T07_getOrangePrice" duration-ms="2" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+        <test-method status="PASS" signature="T07_getOrangePrice()[pri:0, instance:com.tv.trainings.FruitsTest@6d00a15d]" name="T07_getOrangePrice" duration-ms="6" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
           <reporter-output>
             <line>
               <![CDATA[=================================EOT======================================]]>
             </line>
           </reporter-output>
         </test-method> <!-- T07_getOrangePrice -->
-        <test-method status="PASS" signature="T08_validateBananaCount()[pri:0, instance:com.tv.trainings.FruitsTest@36d4b5c]" name="T08_validateBananaCount" duration-ms="2" started-at="2021-07-07T12:14:27Z" finished-at="2021-07-07T12:14:27Z">
+        <test-method status="PASS" signature="T08_validateBananaCount()[pri:0, instance:com.tv.trainings.FruitsTest@6d00a15d]" name="T08_validateBananaCount" duration-ms="2" started-at="2021-07-08T23:17:30Z" finished-at="2021-07-08T23:17:30Z">
           <reporter-output>
             <line>
               <![CDATA[Banana count is matched with Banana in fruits bowl]]>
