@@ -2,7 +2,6 @@ package com.tv.trainings3;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -14,12 +13,22 @@ public class ChinmayaMissionHospital {
 		patients = new ArrayList<>();
 	}
 
-	//To add Patient data
+	// To add Patient data
 	public void addPatient(Patient... patients) {
-		this.patients.addAll(Arrays.asList(patients));
+		for (Patient patient : patients) {
+
+			if (!this.patients.stream().anyMatch(pat -> (pat.getName().equalsIgnoreCase(patient.getName()))
+					&& (pat.getPatientFrom().equalsIgnoreCase(patient.getPatientFrom()))))
+				this.patients.add(patient);
+		}
+
 	}
 
-	//To get local Patient
+	public void showAllPatients() {
+		patients.stream().iterator().forEachRemaining(patient -> System.out.println(patient.toString()));
+	}
+
+	// To get local Patient
 	public List<Patient> getLocalPatientsList() {
 		List<Patient> localPatients = new ArrayList<>();
 		localPatients = patients.stream().parallel()
@@ -29,7 +38,7 @@ public class ChinmayaMissionHospital {
 		return localPatients;
 	}
 
-	//To get outside Patient
+	// To get outside Patient
 	public List<Patient> getOutsidePatientsList() {
 		List<Patient> outPatients = new ArrayList<>();
 		outPatients = patients.stream().parallel()
